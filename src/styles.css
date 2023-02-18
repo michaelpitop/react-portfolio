@@ -1,0 +1,10 @@
+.cont-container {
+  grid-row: auto;
+
+  display: grid;
+  justify-content: center;
+}
+
+.cont-card {
+  color: blue
+}
