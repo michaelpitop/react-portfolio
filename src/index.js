@@ -19,11 +19,11 @@
 
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
-import Project from "./pages/Project";
+import Layout from "./components/Layout";
+import Home from "./assets/Home";
+import Contact from "./components/Contact";
+import NoPage from "./components/NoPage";
+import Project from "./components/Project";
 
 export default function App() {
   return (

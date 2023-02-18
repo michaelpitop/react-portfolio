@@ -1,4 +1,6 @@
 import React from "react";
+// import Contact from "./Contact";
+// import Project from "./Project";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function Navbar() {
@@ -9,10 +11,10 @@ function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/project">Projects</Link>
+          <Link to="./project">Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="./contact">Contact</Link>
         </li>
       </ul>
     </nav>
