@@ -3,8 +3,8 @@ import "../styles.css";
 
 function Contact() {
       return (
-        <div class="cont-container">
-          <div class="cont-card">
+        <div class="align-content center">
+          <div class="wrapper flex justify-center  py-16 gap-52 lg:py-12">
             <h1>this is the contact page</h1>
           </div>
           <div class="cont-card">
