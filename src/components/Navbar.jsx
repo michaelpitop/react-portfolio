@@ -8,9 +8,11 @@ import "../styles.css";
 function Navbar() {
   return (
     <nav className="flex justify-between items-center text-white">
-      <Link to="/">Home</Link>
-      <Link to="./project">Projects</Link>
-      <Link to="./contact">Contact</Link>
+      <div class="container">
+        <div class="column"><Link to="/">Home</Link></div>
+        <div class="column"><Link to="./project">Projects</Link></div>
+        <div class="column"><Link to="./contact">Contact</Link></div>
+      </div>
     </nav>
   );
 }
