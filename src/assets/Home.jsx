@@ -12,7 +12,12 @@ import React from 'react';
 
 function Home() {
   return (
-    <h1>Hello!</h1>
+    <div>
+      <h1>Hello!</h1>
+      <h2>my name is ....... and I'm a web developer</h2>
+      <p>This is my personal web page</p>
+      <p>here are all my links <a href="/">a</a> <a href="./contact">2</a></p>
+    </div>
   )
 
 }
