@@ -24,6 +24,7 @@ import Home from "./assets/Home";
 import Contact from "./components/Contact";
 import NoPage from "./components/NoPage";
 import Project from "./components/Project";
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="project" element={<Project />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="experience" element={<Experience />} />
         </Route>
       </Routes>
     </BrowserRouter>
