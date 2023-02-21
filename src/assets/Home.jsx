@@ -16,7 +16,7 @@ function Home() {
       <h1>Hello!</h1>
       <h2>my name is ....... and I'm a web developer</h2>
       <p>This is my personal web page</p>
-      <p>here are all my links <a href="/">a</a> <a href="./contact">2</a></p>
+      <p>here are all my links <a href="https://www.linkedin.com/in/michaelpitop/">LinkedIn</a> <a href="https://github.com/michaelpitop">GitHub</a></p>
     </div>
   )
 
