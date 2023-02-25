@@ -2,6 +2,8 @@ import React from 'react';
 import Certs from '../components/Certs';
 import Contact from '../components/Contact';
 import Text1 from '../components/Text1';
+import Text2 from '../components/Text2';
+
 // import Layout from '../components/Layout';
 // import NoPage from "../components/NoPage"
 
@@ -22,6 +24,7 @@ function Home() {
     // </div>
     <div>
       <Text1 />
+      <Text2 />
       <Certs />
       <Contact />
     </div>
