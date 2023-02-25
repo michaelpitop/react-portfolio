@@ -1,6 +1,7 @@
 import React from 'react';
 import Certs from '../components/Certs';
 import Contact from '../components/Contact';
+import Text1 from '../components/Text1';
 // import Layout from '../components/Layout';
 // import NoPage from "../components/NoPage"
 
@@ -20,6 +21,7 @@ function Home() {
     //   <p><b>here are all my links <a href="https://www.linkedin.com/in/michaelpitop/">LinkedIn</a> <a href="https://github.com/michaelpitop">GitHub</a></b></p>
     // </div>
     <div>
+      <Text1 />
       <Certs />
       <Contact />
     </div>
