@@ -7,12 +7,12 @@ import "../styles.css";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-right text-white text-3xl font-bold underline">
-      <div class="container">
-          <div class="column"><Link to="/"><h3>Home</h3></Link></div>
-          <div class="column"><Link to="./project"><h3>Projects</h3></Link></div>
-          <div class="column"><Link to="./contact"><h3>Contact</h3></Link></div>
-          <div class="column"><Link to="./certs"><h3>Certificates</h3></Link></div>
+    <nav>
+      <div className="grid grid-cols-4 text-white font-bold">
+          <div><Link to="/">Home</Link></div>
+          <div><Link to="./project">Projects</Link></div>
+          <div><Link to="./contact">Contact</Link></div>
+          <div><Link to="./certs">Certificates</Link></div>
       </div>
     </nav>
   );
