@@ -4,6 +4,7 @@ import Contact from '../components/Contact';
 import Text1 from '../components/Text1';
 import Text2 from '../components/Text2';
 
+import "../styles.css";
 // import Layout from '../components/Layout';
 // import NoPage from "../components/NoPage"
 

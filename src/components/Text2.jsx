@@ -10,9 +10,7 @@ function Text2() {
           the programm Full Stack Web Developer from the coding
           bootcamp LeWagon München.
           Although new to the field and with very little experience, I have a lot of
-          passion for this industry and everything involving it. I find your job
-          listing for Junior Frontend Developer the best chance for me to test my
-          knowledge and learn a lot more.
+          passion for this industry and everything involving it.
           The Corona pandemic was eye-opening for me. Besides the
           immense tragedy the world was facing, on a personal level I
           understood that I was deeply unsatisfied with the carrier path I had
@@ -21,9 +19,8 @@ function Text2() {
           challenge my wits and test my mettle on something as fascinating
           as the tech industry.
           As a person I am hard-working. I have a "can do" attitude and
-          always try to solve a problem myself first. But, I'm not afraid of
-          being the dumbest person in the room, as long someone can
-          teach me and let me learn from my mistakes.</h2>
+          always try to solve a problem myself first. But, I'm never afraid of
+          being asking for help from my peers, learning from my mistakes gives me a lot of motivation.</h2>
     </div>
   );
 }

@@ -1,3 +1,7 @@
+body {
+  padding: 0 50px 0 50px;
+  margin: 0;
+}
 .navbar {
   display: grid;
   justify-content: center;
