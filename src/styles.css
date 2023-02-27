@@ -6,35 +6,5 @@
 body {
   padding: 0 50px 0 50px;
   margin: 0;
-}
-.navbar {
-  display: grid;
-  justify-content: center;
-}
-
-.cont-container {
-  grid-row: auto;
-
-  display: grid;
-  justify-content: center;
-}
-
-.cont-card {
-  color: blue
-}
-
-body {
-  background-color: rgb(138, 132, 132);
-}
-
-.container {
-  display: grid;
-  justify-content: center;
-  grid: repeat(1, 30px) / auto-flow 60px;
-
-}
-
-.column {
-  /* columns: 3;
-  column-gap: 1em; */
+  background-color: rgb(61, 177, 139);
 }
