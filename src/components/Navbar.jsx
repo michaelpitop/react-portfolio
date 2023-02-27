@@ -8,8 +8,8 @@ import "../styles.css";
 function Navbar() {
   return (
     <nav>
-      <div className="flex gap-3 justify-end text-white font-bold">
-          <div className="hover:bg-sky-700"><Link to="/">Home</Link></div>
+      <div class="flex gap-3 justify-end text-white font-bold">
+          <div class="hover:bg-sky-700"><Link to="/">Home</Link></div>
           <div><Link to="./project">Projects</Link></div>
           <div><Link to="./contact">Contact</Link></div>
           <div><Link to="./certs">Certificates</Link></div>
