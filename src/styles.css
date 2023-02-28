@@ -13,7 +13,11 @@
 }
 
 body {
-  padding: 0 50px 0 50px;
+  padding: 0px 150px 0 150px;
   margin: 0;
   background-color: rgb(61, 177, 139);
+}
+
+nav {
+  padding-bottom: 50px;
 }
