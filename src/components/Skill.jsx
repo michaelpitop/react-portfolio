@@ -3,11 +3,12 @@ import React from "react";
 function Skill() {
   return (
     <div>
+
       <div>
         <h2>Skills</h2>
       </div>
-      
-      <div class='flex gap-10 basis-10 justify-center	'>
+      ________________________________________________________________________________________________________________________________________________________________________________________
+      <div class='flex gap-9 basis-10 justify-center	'>
         <p>JavaScript</p>
         <p>React</p>
         <p>Ruby</p>
@@ -17,11 +18,13 @@ function Skill() {
         <p>SCSS</p>
         <p>Bootstrap</p>
         <p>postgreSQL</p>
+        <p>git</p>
         <p>GitHub</p>
         <p>Heroku</p>
         <p>Firebase</p>
         <p>Figma</p>
       </div>
+      ________________________________________________________________________________________________________________________________________________________________________________________
     </div>
   );
 }

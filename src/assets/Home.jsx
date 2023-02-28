@@ -29,6 +29,7 @@ function Home() {
       <Text2 />
       <Certs />
       <Contact />
+      -
       <Skill />
       <Footer />
     </div>
