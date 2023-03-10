@@ -4,11 +4,11 @@ function Skill() {
   return (
     <div>
 
-      <div>
-        <h2>Skills</h2>
+      <div class='flex text-[50px]  my-5 justify-center'>
+        <p><strong><em>Skills</em></strong></p>
       </div>
-      ________________________________________________________________________________________________________________________________________________________________________________________
-      <div class='flex gap-9 basis-10 justify-center	'>
+
+      <div class='flex gap-9 flex-wrap	text-[40px] basis-10 justify-center	'>
         <p>JavaScript</p>
         <p>React</p>
         <p>Ruby</p>
@@ -24,7 +24,7 @@ function Skill() {
         <p>Firebase</p>
         <p>Figma</p>
       </div>
-      ________________________________________________________________________________________________________________________________________________________________________________________
+
     </div>
   );
 }
