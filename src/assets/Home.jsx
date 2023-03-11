@@ -3,7 +3,6 @@ import Certs from '../components/Certs';
 import Contact from '../components/Contact';
 import Text1 from '../components/Text1';
 import Text2 from '../components/Text2';
-import Footer from '../components/Footer';
 import Skill from '../components/Skill';
 import "../styles.css";
 // import Layout from '../components/Layout';
@@ -31,7 +30,6 @@ function Home() {
       <Contact />
       -
       <Skill />
-      <Footer />
     </div>
   )
 
