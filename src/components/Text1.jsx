@@ -5,11 +5,11 @@ import React from "react";
 function Text1() {
 
   return (
-    <div class="h-screen bg-cover bg-no-repeat bg-center bg-[url('/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/gaidouronisi.jpg')]">
-      <div class="flex justify-center text-white">
-        <h1>Hello! My name is Michael Pitopoulakis</h1>
-        <h2>I'm a Junior Fullstack developer </h2>
-      </div>
+    <div class="h-screen grid	place-items-center text-center text-white bg-cover bg-no-repeat bg-center bg-[url('/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/gaidouronisi.jpg')]">
+        <h1>Hello! My name is Michael Pitopoulakis
+          <br /> I'm a Junior Fullstack developer</h1>
+      {/* <div class="grid justify-evenly	 text-white">
+      </div> */}
     </div>
   );
 }
