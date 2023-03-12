@@ -5,10 +5,8 @@ import React from "react";
 function Text1() {
 
   return (
-    <div>
-      <div class="bg-[url('../assets/pictures/gaidouronisi.jpg')]">
-      </div>
-      <div class="justify-center">
+    <div class="bg-cover bg-no-repeat bg-center bg-[url('/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/gaidouronisi.jpg')]">
+      <div class="flex justify-center text-white">
         <h1>Hello! My name is Michael Pitopoulakis</h1>
         <h2>I'm a Junior Fullstack developer </h2>
       </div>
