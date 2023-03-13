@@ -5,9 +5,10 @@ import "../styles.css";
 function Text1() {
 
   return (
-    <div class="relative w-screen -inset-x-40	 h-screen grid	place-items-center text-center text-white bg-cover bg-no-repeat bg-center bg-[url('/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/leuka_ori.jpg')]">
-        <h1>Hello! My name is Michael Pitopoulakis
-          <br /> I'm a Junior Fullstack developer</h1>
+    <div class="relative w-screen -inset-x-40	 h-screen grid	place-items-center text-center text-white  bg-no-repeat bg-center bg-[url('/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/leuka_ori.jpg')]">
+        <p>Hi! My name is Michael
+          <br /> I build amazing websites</p>
+          <button class="border">Get in touch!</button>
     </div>
   );
 }

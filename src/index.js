@@ -24,7 +24,7 @@ import Home from "./assets/Home";
 import Contact from "./components/Contact";
 import NoPage from "./components/NoPage";
 import Project from "./components/Project";
-import Certs from "./components/Certs";
+import About from './components/About';
 
 export default function App() {
   return (
@@ -32,10 +32,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="project" element={<Project />} />
           <Route path="*" element={<NoPage />} />
-          <Route path="certs" element={<Certs />} />
         </Route>
       </Routes>
     </BrowserRouter>

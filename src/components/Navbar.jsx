@@ -39,9 +39,9 @@ export default function Navbar() {
   return <div className={`h-16 w-full  ${stickyClass}`}>
       <div class="flex gap-3 justify-end text-white font-bold">
           <div class="hover:bg-sky-700"><Link to="/">Home</Link></div>
+          <div><Link to="./about">About</Link></div>
           <div><Link to="./project">Projects</Link></div>
           <div><Link to="./contact">Contact</Link></div>
-          <div><Link to="./certs">Certificates</Link></div>
       </div>
   </div>;
 }
