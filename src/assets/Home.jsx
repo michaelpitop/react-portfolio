@@ -1,5 +1,4 @@
 import React from 'react';
-import Contact from '../components/Contact';
 import Text1 from '../components/Text1';
 import "../styles.css";
 // import Layout from '../components/Layout';
@@ -22,10 +21,6 @@ function Home() {
     // </div>
     <div>
       <Text1 />
-      {/* <Certs />
-      <Contact />
-      -
-      <Skill /> */}
     </div>
   )
 
