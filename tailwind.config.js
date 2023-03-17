@@ -3,8 +3,11 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,tsx}"],
   theme: {
     screens: {
-      'lg': {'max': '1023px'},
-      'tl': {'max': '723px'},
+      'sm': '640px',
+      'md': '768px',
+
+      'lg': {'max': '1024px'},
+      'xl': '1280px',
       },
     // backgroundSize: {
     //   'auto': 'auto',
@@ -16,7 +19,7 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        // 'back': "url('./src/assets/images/bg.jpg')",
+        // 'home': "url('/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/leuka_ori.jpg')",
         // 'skills': "url('./src/assets/images/banner-bg.png')"
       }
     },

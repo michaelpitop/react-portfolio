@@ -12,7 +12,7 @@ function Footer() {
       <a href="https://www.linkedin.com/in/michaelpitop/" class="flex self-center"><BsLinkedin /></a>
       <a href="mailto:michaelpitop@outlook.com" class="flex self-center"><BsEnvelope /></a>
       |
-      <span>created by michaelpitop</span>
+      <p>created by michaelpitop</p>
     </footer>
   )
 }

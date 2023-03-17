@@ -13,11 +13,25 @@
 }
 
 body {
-  padding: 0px 150px 0 150px;
+  /* padding: 0px 150px 0 150px; */
   margin: 0;
   background-color: rgb(61, 177, 139);
 }
 
 nav {
   padding-bottom: 50px;
+}
+
+.full-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+   /* or "height: auto" if page is large and you need to scrool down to see all content */
+}
+
+
+.bg-home {
+  background-image: url("./assets/pictures/galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
