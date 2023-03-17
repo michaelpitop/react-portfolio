@@ -37,7 +37,7 @@ const Contact = () => {
     //   })
       // .then(() => {
       //   setLoader(false);
-      //   alert("Your message has been submitted👍");
+      //   alert("Your message has been submitted");
       // })
       // .catch((error) => {
       //   alert(error.message);
@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <h1>Contact Us 🤳</h1>
+      <h1>Get in touch!</h1>
 
       <label>Name</label>
       <input
