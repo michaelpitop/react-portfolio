@@ -94,7 +94,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_t4ypoto', 'template_d4f3md3', form.current, 'Ny6Zm7UXnJ76YVv5D')
     .then((result) => {
       console.log(result.text);
       }, (error) => {
