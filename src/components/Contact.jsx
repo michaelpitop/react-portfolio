@@ -1,6 +1,9 @@
-import React, { useState, useEffect } from "react";
-import "../styles.css";
+// import React, { useState, useEffect } from "react";
 // import { db } from "../firebase";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import "../styles.css";
+
 
 // function Contact() {
 //       return (
@@ -18,68 +21,96 @@ import "../styles.css";
 //         );
 // }
 
-const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+// const Contact = () => {
+//   const [name, setName] = useState("");
+//   const [email, setEmail] = useState("");
+//   const [message, setMessage] = useState("");
 
-  const [loader, setLoader] = useState(false);
+//   const [loader, setLoader] = useState(false);
 
-  const handleSubmit = (e) => {
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     setLoader(true);
+
+//     // db.collection("contacts")
+//     //   .add({
+//     //     name: name,
+//     //     email: email,
+//     //     message: message,
+//     //   })
+//       // .then(() => {
+//       //   setLoader(false);
+//       //   alert("Your message has been submitted");
+//       // })
+//       // .catch((error) => {
+//       //   alert(error.message);
+//       //   setLoader(false);
+//       // });
+
+//     setName("");
+//     setEmail("");
+//     setMessage("");
+//   };
+
+//   return (
+//     <form className="form" onSubmit={handleSubmit}>
+//       <h1>Get in touch!</h1>
+
+//       <label>Name</label>
+//       <input
+//         placeholder="Name"
+//         value={name}
+//         onChange={(e) => setName(e.target.value)}
+//       />
+
+//       <label>Email</label>
+//       <input
+//         placeholder="Email"
+//         value={email}
+//         onChange={(e) => setEmail(e.target.value)}
+//       />
+
+//       <label>Message</label>
+//       <textarea
+//         placeholder="Message"
+//         value={message}
+//         onChange={(e) => setMessage(e.target.value)}
+//       ></textarea>
+
+//       <button
+//         type="submit"
+//         style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
+//       >
+//         Submit
+//       </button>
+//     </form>
+//   );
+// };
+
+
+export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    setLoader(true);
 
-    // db.collection("contacts")
-    //   .add({
-    //     name: name,
-    //     email: email,
-    //     message: message,
-    //   })
-      // .then(() => {
-      //   setLoader(false);
-      //   alert("Your message has been submitted");
-      // })
-      // .catch((error) => {
-      //   alert(error.message);
-      //   setLoader(false);
-      // });
-
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    .then((result) => {
+      console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    };
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
-      <h1>Get in touch!</h1>
-
+    <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input
-        placeholder="Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-
+      <input type="text" name="user_name" />
       <label>Email</label>
-      <input
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-
+      <input type="email" name="user_email" />
       <label>Message</label>
-      <textarea
-        placeholder="Message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-
-      <button
-        type="submit"
-        style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
-      >
-        Submit
-      </button>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
     </form>
   );
 };
