@@ -24,7 +24,7 @@ function Home() {
     // <div>
     //   <Text1 />
     // </div>
-    <div class="full-screen bg-home">
+    <div class="p-1 full-screen bg-home">
 
     Hi! My name is Michael Pitopoulakis!
 

@@ -8,7 +8,7 @@ import "../styles.css";
 function Navbar() {
   return (
     <nav>
-      <div class="flex gap-3 justify-end text-white font-bold">
+      <div class="pr-6 flex gap-3 justify-end text-white font-bold">
           <div class="hover:bg-sky-700"><Link to="/">Home</Link></div>
           <div class="hover:bg-sky-700"><Link to="./about">About</Link></div>
           <div class="hover:bg-sky-700"><Link to="./project">Projects</Link></div>

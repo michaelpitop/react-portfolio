@@ -7,11 +7,11 @@ import {Link} from "react-router-dom";
 function Text1() {
 
   return (
-      <div style={{backgroundImage:  `url(https://img.freepik.com/free-photo/beautiful-milky-way-night-sky_53876-139825.jpg?w=1380&t=st=1679057340~exp=1679057940~hmac=a47ac74de5ebbd094ec6a60220d0843abae046db9f7dc249e193dddf6d86049e)`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover"
-              }}>
-
+      // <div style={{backgroundImage:  `url(https://img.freepik.com/free-photo/beautiful-milky-way-night-sky_53876-139825.jpg?w=1380&t=st=1679057340~exp=1679057940~hmac=a47ac74de5ebbd094ec6a60220d0843abae046db9f7dc249e193dddf6d86049e)`,
+      //           backgroundRepeat: "no-repeat",
+      //           backgroundSize: "cover"
+      //         }}>
+      <div>
           Hi! My name is Michael Pitopoulakis!
 
           <div class="grid grid-cols-2 gap-4">
