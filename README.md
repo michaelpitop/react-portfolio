@@ -1,5 +1,12 @@
 Hello and welcome to my new portfolio made with the react framework!
 
+TO DO LIST:
+
+1) Add animated image in homepage
+2) Provide more information in About page
+3) Properly display Project page
+4) Same for Contact page, also add a map
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
