@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles.css";
 import Skill from './Skill';
-import pic from '../assets/pictures/pic.jpg'
+import pic from '../assets/pictures/pic.jpg';
 import Certs from './Certs';
 
 function About() {

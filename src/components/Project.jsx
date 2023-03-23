@@ -5,10 +5,10 @@ function Project() {
       return (
         <div>
           <h1>Past Projects</h1>
-          <div>
-            <div> 1 </div>
-            <div> 2 </div>
-            <div> 3 </div>
+          <div class="container">
+            <div class="card"> 1 </div>
+            <div class="card"> 2 </div>
+            <div class="card"> 3 </div>
           </div>
         </div>
        );
