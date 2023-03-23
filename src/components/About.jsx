@@ -1,15 +1,15 @@
 import React from "react";
 import "../styles.css";
 import Skill from './Skill';
-import pic from '../assets/pictures/pic.jpg';
+import pic from '../assets/pictures/pic.jpg'
 import Certs from './Certs';
 
 function About() {
   return (
     <div>
       <div class="grid grid-cols-2 gap-2">
-        <div class="rounded-lg	">
-          <img class="rounded-full	" src={pic} alt="" />
+        <div>
+          <img class="rounded-full " src={pic} alt="" /> {/* need to change the size of the  picture in the future with h and w */}
         </div>
         <div class="text-center mt-12	">
           <h1> <strong> <em> Nice to meet you! My name is Michael!</em></strong></h1>
