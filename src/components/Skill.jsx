@@ -23,6 +23,10 @@ function Skill() {
         <p>Heroku</p>
         <p>Firebase</p>
         <p>Figma</p>
+
+___________________________________
+<p>currently learning C# and .NET framework</p>
+
       </div>
 
     </div>
