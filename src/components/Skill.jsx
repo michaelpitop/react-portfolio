@@ -12,7 +12,7 @@ function Skill() {
         <p>JavaScript</p>
         <p>React</p>
         <p>Ruby</p>
-        <p>Ruby on Rails</p>
+        <p>Rails</p>
         <p>HTML5</p>
         <p>CSS3</p>
         <p>SCSS</p>
