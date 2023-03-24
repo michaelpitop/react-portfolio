@@ -2,7 +2,10 @@ import React from 'react';
 
 function NoPage() {
       return (
-            <h1>ERROR 404</h1>
+        <div class="grid  grid-flow-row rows-2 text-center text-7xl ">
+            <p>ERROR 404</p>
+            <p>Page was not found</p>
+        </div>
         );
 }
 
