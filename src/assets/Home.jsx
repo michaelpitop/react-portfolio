@@ -1,18 +1,7 @@
 import React from 'react';
-// import Text1 from '../components/Text1';
 import "../styles.css";
-// import Layout from '../components/Layout';
-// import NoPage from "../components/NoPage"
 import {Link} from "react-router-dom";
 import gif1 from '/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/gif1.gif';
-
-// function Home() {
-//     return (
-//        <>
-//         <Layout />
-//        </>
-//     );
-// }
 
 function Home() {
   return (
