@@ -12,7 +12,7 @@ function Home() {
   };
 
   return (
-    <div class="static grid grid-cols-2 gap-4">
+    <div class="  grid grid-cols-2 gap-4">
         <div class=" text-5xl text-center">
           <p><strong><em> <br /> <br /> Hi, my name is Michael! <br /> Junior Web Developer</em></strong></p>
 
@@ -27,7 +27,7 @@ function Home() {
         <div>
           <img class=" h-96 w-200 rounded-lg" src={gif1} alt="" />
         </div>
-
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> {/* not a permanent solution... will fix eventually */}
     </div>
     )
 
