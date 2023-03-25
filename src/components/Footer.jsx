@@ -7,7 +7,7 @@ import { BsEnvelope } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer class="mt-auto flex inline-block gap-4 justify-center  text-white">
+    <footer class="mt-auto flex inline-block gap-4 justify-center text-white p-4">
       <a href="https://github.com/michaelpitop" class="flex self-center"><BsGithub /></a>
       <a href="https://www.linkedin.com/in/michaelpitop/" class="flex self-center"><BsLinkedin /></a>
       <a href="mailto:michaelpitop@outlook.com" class="flex self-center"><BsEnvelope /></a>

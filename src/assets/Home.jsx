@@ -27,7 +27,7 @@ function Home() {
         <div>
           <img class=" h-96 w-200 rounded-lg" src={gif1} alt="" />
         </div>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> {/* not a permanent solution... will fix eventually */}
+<br /><br /><br /><br /><br /><br /><br /><br /><br /> {/* not a permanent solution... will fix eventually */}
     </div>
     )
 
