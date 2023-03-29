@@ -15,9 +15,21 @@ function About() {
           <h1> <strong> <em> Nice to meet you! My name is Michael!</em></strong></h1>
           <br />
           <p>Originally from the island of Crete, Greece and currently residing in the city of Munich, Germany</p>
-          <p>I'm a newcomer to the wevb development scene and I'm searching for my first job to prove my knowdledge and test my mettle against new challenges.</p>
+          <p>I'm a newcomer to the web development scene and I'm searching for my first job to prove my knowdledge and test my mettle against new challenges.</p>
           <br />
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, maiores, ipsam veniam facilis quos est nihil quis, a ipsum magni at eum similique numquam sapiente adipisci velit libero obcaecati quibusdam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusantium similique consequatur nulla repellendus quibusdam sit, quaerat optio, neque reiciendis nesciunt? Itaque sapiente, blanditiis in animi explicabo harum earum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt enim tenetur culpa minus amet quasi eos cum sapiente dicta. Veritatis quo veniam totam in molestiae voluptas autem corporis temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, sint neque repellendus eum quam impedit odit doloremque! Nihil animi quis aliquam laboriosam unde iste numquam modi odio et, illum at.</p>
+          <p> The Corona pandemic was eye-opening for me. Besides the
+              immense tragedy the world was facing, on a personal level I
+              understood that I was deeply unsatisfied with the carrier path I had
+              chosen thus far. That's why ,starting on Jan 2022, I decided to bet
+              everything on a carrier change as a web developer, where I can
+              challenge my wits and test my mettle on something as fascinating
+              as the tech industry.   </p>
+
+          <br />
+          <p>My journey started with my admition to Le Wagon Munich, a coding bootcamp
+             that tought me the important foundamentals of web development. </p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias error dolores, ea praesentium a deserunt asperiores distinctio voluptatem voluptatibus earum porro, similique rem cum sit, animi suscipit itaque fugit vero.</p>
+
         </div>
       </div>
       <Certs />
