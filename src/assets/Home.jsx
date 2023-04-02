@@ -2,14 +2,14 @@ import React from 'react';
 import "../styles.css";
 import {Link} from "react-router-dom";
 import gif1 from '/home/michaelpitop/code/michaelpitop/react-portfolio/src/assets/pictures/gif1.gif';
-import {useNavigate} from 'react-router-dom';
+// import {useNavigate} from 'react-router-dom';
 
 function Home() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const navigateToContacts = () => {
-    navigate('./contact');
-  };
+  // const navigateToContacts = () => {
+  //   navigate('./contact');
+  // };
 
   return (
     <div class="grid grid-cols-2 gap-4">

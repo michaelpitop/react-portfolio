@@ -8,9 +8,9 @@ function About() {
   return (
     <div>
       <div class="grid grid-cols-2 gap-2">
-        <div>
+        {/* <div> */}
           <img class="rounded-full " src={pic} alt="" /> {/* need to change the size of the  picture in the future with h and w */}
-        </div>
+        {/* </div> */}
         <div class="text-center mt-12	">
           <h1> <strong> <em> Nice to meet you! My name is Michael!</em></strong></h1>
           <br />
