@@ -14,7 +14,7 @@ function Home() {
   return (
     <div class="grid grid-cols-2 gap-4">
         <div class=" text-5xl text-center">
-          <p><strong><em> <br /> <br /> Hi, my name is Michael! <br /> Junior Web Developer</em></strong></p>
+          <p><strong><em> <br /> <br /> Hi, my name is Michael! <br />I'm a Junior Web Developer</em></strong></p>
 
           <h2 class="my-4">Junior Fullstack Developer | Junior Frontend Developer</h2>
           <div class="flex  place-content-center	">
