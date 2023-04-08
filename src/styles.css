@@ -17,7 +17,9 @@ body {
   padding: 0px 100px 0 100px;
   margin: 0;
   background-color: rgb(61, 177, 139);
+  overflow-y: scroll
 }
+
 
 
 nav {
