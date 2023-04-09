@@ -17,9 +17,9 @@ function About() {
           <br />
           <p> The Corona pandemic was eye-opening for me. Besides the
               immense tragedy the world was facing, on a personal level I
-              understood that I was deeply unsatisfied with the carrier path I had
+              understood that I was deeply unsatisfied with the career path I had
               chosen thus far. That's why ,starting on Jan 2022, I decided to bet
-              everything on a carrier change as a web developer, where I can
+              everything on a career change as a web developer, where I can
               challenge my wits and test my mettle on something as fascinating
               as the tech industry.   </p>
 
@@ -28,6 +28,16 @@ function About() {
              that tought me the important foundamentals of web development. </p>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias error dolores, ea praesentium a deserunt asperiores distinctio voluptatem voluptatibus earum porro, similique rem cum sit, animi suscipit itaque fugit vero.</p>
 
+        </div>
+      </div>
+      <div>
+        <div class='flex text-[50px]  my-5 justify-center'>
+          <p><strong><em>My relevant links</em></strong></p>
+        </div>
+        <div class='flex gap-9 flex-wrap	text-[40px] basis-10 justify-center	text-white'>
+          <a class="hover:text-sky-400" href="https://michaelpitop.tiiny.site/">Download my CV</a>
+          <a class="hover:text-sky-400" href="https://github.com/michaelpitop/">My GitHub page</a>
+          <a class="hover:text-sky-400" href="https://www.linkedin.com/in/michaelpitop/">LinkedIn Profile</a>
         </div>
       </div>
       <Certs />
