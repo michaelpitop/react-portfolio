@@ -30,7 +30,7 @@ function About() {
 
         </div>
       </div>
-      <div>
+      {/* <div>
         <div class='flex text-[50px]  my-5 justify-center'>
           <p><strong><em>My relevant links</em></strong></p>
         </div>
@@ -39,7 +39,7 @@ function About() {
           <a class="hover:text-sky-400" href="https://github.com/michaelpitop/">My GitHub page</a>
           <a class="hover:text-sky-400" href="https://www.linkedin.com/in/michaelpitop/">LinkedIn Profile</a>
         </div>
-      </div>
+      </div> */}
       <Certs />
       <Skill />
     </div>
