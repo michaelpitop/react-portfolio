@@ -3,12 +3,12 @@ Hello and welcome to my new portfolio made with the react framework!
 TO DO LIST:
 
 ~~ 1) Add animated image in homepage ~~
-2) Provide more information in About page
+~~2) Provide more information in About page~~
 3) Properly display Project page
 4) Same for Contact page, also add a map
-5) fix footer
+~~ 5) fix footer ~~
 6) change the size of the picture in About page
-7) tbd
+7) add an email sent notification in contact page
 
 <!-- # Getting Started with Create React App
 

@@ -10,7 +10,7 @@ function About() {
       <div class="grid grid-cols-2 gap-2">
         <img class="rounded-full " src={pic} alt="" /> {/* need to change the size of the  picture in the future with h and w */}
         <div class="text-center mt-12	">
-          <h1> <strong> <em> Nice to meet you! My name is Michael!</em></strong></h1>
+          <h1> <strong> <em> My name is Michael Pitopoulakis, nice to meet you!</em></strong></h1>
           <br />
           <p>Originally from the island of Crete, Greece and currently residing in the city of Munich, Germany</p>
           <p>I'm a newcomer to the web development scene and I'm searching for my first job to prove my knowdledge and test my mettle against new challenges.</p>
