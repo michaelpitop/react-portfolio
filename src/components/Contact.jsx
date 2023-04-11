@@ -3,7 +3,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "../styles.css";
-import { BsLinkedin } from "react-icons/bs";
 
 
 // function Contact() {
@@ -118,7 +117,7 @@ export const Contact = () => {
       </div>
 
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Or end me an email</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Or send me an email</h2>
           {/* <p class="mt-auto flex inline-block gap-2 justify-center text-white p-4   mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">or contact me via <a href="https://www.linkedin.com/in/michaelpitop/" > Linked </a> <a href="https://www.linkedin.com/in/michaelpitop/" class="flex self-center"><BsLinkedin /></a></p> */}
           <form ref={form} onSubmit={sendEmail} class="space-y-8">
               <div>

@@ -5,7 +5,7 @@ TO DO LIST:
 ~~ 1) Add animated image in homepage ~~
 ~~2) Provide more information in About page~~
 3) Properly display Project page
-4) Same for Contact page, also add a map
+~~4) Same for Contact page~~
 ~~ 5) fix footer ~~
 6) change the size of the picture in About page
 7) add an email sent notification in contact page
