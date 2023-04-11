@@ -27,7 +27,7 @@ function About() {
           <p><strong><em>My relevant links</em></strong></p>
         </div>
         <div class='flex gap-9 flex-wrap	text-[40px] basis-10 justify-center	text-white'>
-          <a class="hover:text-sky-400" href="https://michaelpitop.tiiny.site/">Download my CV</a>
+          <a class="hover:text-sky-400" href="https://www.docdroid.net/7oCkhJg/michael-pitopoulakis-cv-pdf">Download my CV</a>
           <a class="hover:text-sky-400" href="https://github.com/michaelpitop/">My GitHub page</a>
           <a class="hover:text-sky-400" href="https://www.linkedin.com/in/michaelpitop/">LinkedIn Profile</a>
         </div>
