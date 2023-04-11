@@ -12,7 +12,7 @@ function About() {
         <div class="text-center mt-12	">
           <h1> <strong> <em> My name is Michael Pitopoulakis, nice to meet you!</em></strong></h1>
           <br />
-          <p>I'm an aspiring web developer and I'm searching for my first job to prove my knowdledge and test my mettle against new challenges.</p>
+          <p>I'm an aspiring web developer searching for my first job to prove my knowdledge and test my mettle against new challenges.</p>
           <br />
           <p>Originally from the island of Crete, Greece and currently residing in the city of Munich, Germany. The COVID-19 pandemic served as a significant wake-up call for me, as I came to a realization that I was profoundly dissatisfied with my current career path. Thats why in January 2022 I made the life-changing decision to pursue a career in web development and began my journey. This would allow me to push myself to the limits and delve into the intriguing world of the tech industry.</p>
           <br />
@@ -20,7 +20,6 @@ function About() {
           <br />
           <p>After completing the bootcamp, I took it upon myself to continue expanding my knowledge and skills in web development by independently learning new tools such as React, Tailwind, C#, and .NET. Despite maintaining a 60-hour work schedule, I spent my free time making different small projects to gain practical skills and knowledge so that I could become job-ready.</p>
           <br />
-          <p class="text-[20px]">More info about me on my CV</p>
         </div>
       </div>
       <div>

@@ -1,6 +1,6 @@
 // import React, { useState, useEffect } from "react";
 // import { db } from "../firebase";
-import React, { useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "../styles.css";
 
@@ -90,26 +90,46 @@ import "../styles.css";
 
 export const Contact = () => {
   const form = useRef();
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    setSuccessMessage('Email sent successfully!');
+    setErrorMessage('');
+    form.current.reset();
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
+    // emailjs.sendForm('service_t4ypoto', 'template_d4f3md3', form.current, 'Ny6Zm7UXnJ76YVv5D')
+    // .then((result) => {
+    //   console.log(result.text);
+    //   }, (error) => {
+    //     console.log(error.text);
+    //   });
 
     emailjs.sendForm('service_t4ypoto', 'template_d4f3md3', form.current, 'Ny6Zm7UXnJ76YVv5D')
     .then((result) => {
       console.log(result.text);
+      handleFormSubmit(e);
+      form.current.reset(); // clear the input fields
       }, (error) => {
         console.log(error.text);
+        setSuccessMessage('');
+        setErrorMessage('Error sending email!');
       });
+
     };
 
   return (
     <section class="bg-white dark:bg-gray-900 rounded-lg">
       <div>
         <div class='flex text-[50px]  my-5 justify-center text-white'>
-          <p><strong><em>My relevant links</em></strong></p>
+          <p><strong><em>Contact me via:</em></strong></p>
         </div>
         <div class='flex gap-9 flex-wrap	text-[40px] basis-10 justify-center	text-white'>
-          <a class="hover:text-sky-400" href="https://michaelpitop.tiiny.site/">Download my CV</a>
+          {/* <a class="hover:text-sky-400" href="https://michaelpitop.tiiny.site/">Download my CV</a> */}
           <a class="hover:text-sky-400" href="https://github.com/michaelpitop/">My GitHub page</a>
           <a class="hover:text-sky-400" href="https://www.linkedin.com/in/michaelpitop/">LinkedIn Profile</a>
 
@@ -130,6 +150,13 @@ export const Contact = () => {
                   <textarea name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Your message"></textarea>
               </div>
               <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+              {successMessage && (
+          <div className="text-green-600 mb-4">{successMessage}</div>
+)}
+{errorMessage && (
+  <div className="text-red-600 mb-4">{errorMessage}</div>
+)}
+
           </form>
       </div>
     </section>
