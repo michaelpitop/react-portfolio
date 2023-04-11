@@ -2,7 +2,7 @@ Hello and welcome to my new portfolio made with the react framework!
 
 TO DO LIST:
 
-~~ 1) Add animated image in homepage ~~
+~~1) Add animated image in homepage ~~
 
 ~~2) Provide more information in About page~~
 
@@ -10,11 +10,11 @@ TO DO LIST:
 
 ~~4) Same for Contact page~~
 
-~~ 5) fix footer ~~
+~~5) fix footer ~~
 
 6) change the size of the picture in About page
 
-~~ 7) add an email sent notification in contact page ~~
+~~7) add an email sent notification in contact page ~~
 
 8) Add custom URL
 
