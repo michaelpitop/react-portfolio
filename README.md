@@ -20,6 +20,8 @@ TO DO LIST:
 
 9) Add support for multiple screen sizes
 
+10) Links should open in a new tab
+
 TBC in the future. Currently focusing on C# and .NET.
 
 <!-- # Getting Started with Create React App
