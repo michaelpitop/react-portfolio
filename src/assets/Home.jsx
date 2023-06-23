@@ -7,9 +7,9 @@ function Home() {
   return (
     <div class="grid grid-cols-2 gap-4">
         <div class=" text-5xl text-center">
-          <p><strong><em> <br /> <br /> Hi, my name is Michael! <br />I'm a Junior Web Developer</em></strong></p>
+          <p><strong><em> <br /> <br /> Hi, my name is Michael! <br />I'm a Junior Full Stack Developer</em></strong></p>
 
-          <h2 class="my-4">Junior Fullstack Developer | Junior Frontend Developer</h2>
+          {/* <h2 class="my-4">Junior Fullstack Developer | Junior Frontend Developer</h2> */}
           <div class="flex  place-content-center	">
           <Link to="../about"><button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-3 py-2.5 text-center mr-2 mb-2">About me</button></Link>
           <Link to="../contact"><button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-3 py-2.5 text-center mr-2 mb-2">Lets talk!</button></Link>

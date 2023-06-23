@@ -11,14 +11,17 @@ function Skill() {
       <div class='flex gap-9 flex-wrap	text-[40px] basis-10 justify-center	'>
         <p>JavaScript</p>
         <p>React</p>
-        {/* <p>jQuery</p> */}
         <p>Ruby</p>
         <p>Rails</p>
+        <p>C#</p>
+        <p>ASP.NET</p>
+        <p>PHP</p>
+        {/* <p>jQuery</p> */}
         <p>Tailwind</p>
+        <p>Bootstrap</p>
         <p>HTML5</p>
         <p>CSS3</p>
         <p>SCSS</p>
-        <p>Bootstrap</p>
         <p>postgreSQL</p>
         <p>git</p>
         <p>GitHub</p>
@@ -26,8 +29,6 @@ function Skill() {
         <p>Firebase</p>
         <p>Figma</p>
 
-___________________________________
-<p>currently learning C# and .NET framework</p>
 
       </div>
 
