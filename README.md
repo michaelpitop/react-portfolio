@@ -16,13 +16,13 @@ TO DO LIST:
 
 ~~7) add an email sent notification in contact page ~~
 
-8) Add custom URL
+~~8) Add custom URL~~
 
 9) Add support for multiple screen sizes
 
-10) Links should open in a new tab
+~~10) Links should open in a new tab~~
 
-TBC in the future. Currently focusing on C# and .NET.
+TBC in the future. Code looks messy because I've been testing different things to see what works best.
 
 <!-- # Getting Started with Create React App
 

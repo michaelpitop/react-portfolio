@@ -12,9 +12,12 @@ function About() {
         <div class="text-center mt-12	">
           <h1> <strong> <em> My name is Michael Pitopoulakis, nice to meet you!</em></strong></h1>
           <br />
-          <p>I'm an aspiring web developer searching for my first job to prove my knowdledge and test my mettle against new challenges.</p>
+          <p>I'm an aspiring web developer searching for my first job in the field.</p>
           <br />
-          <p>Originally from the island of Crete, Greece and currently residing in the city of Munich, Germany. The COVID-19 pandemic served as a significant wake-up call for me, as I came to a realization that I was profoundly dissatisfied with my current career path. Thats why in January 2022 I made the life-changing decision to pursue a career in web development and began my journey. This would allow me to push myself to the limits and delve into the intriguing world of the tech industry.</p>
+          <p>Originally from the island of Crete, Greece and currently residing in the city of Munich, Germany.
+I've always been interested in programming. I find it fascinating that you can use it to bring your ideas to life and solve complex problems using logical and creative thinking.
+
+For this reason in January 2022 I joined Le Wagon Munich, a coding bootcamp where I learned the basics of web development. For example JavaScript, Ruby on Rails, different tools like Git, relational database, different types of APIs and much more.</p>
           <br />
           <p>My journey into the world of web development began with my admission to Le Wagon Munich, a coding bootcamp that equipped me with the essential fundamentals of web development. During my time there, I gained valuable experience in collaborative teamwork, from the initial stages of development to production, including bug handling within a limited time frame.</p>
           <br />
