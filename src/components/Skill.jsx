@@ -28,6 +28,7 @@ function Skill() {
         <p>Heroku</p>
         <p>Firebase</p>
         <p>Figma</p>
+        <p>Svelte</p>
 
 
       </div>
