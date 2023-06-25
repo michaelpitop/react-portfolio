@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <div class="grid grid-cols-2 gap-2">
-        <img class="rounded-full " src={pic} alt="" /> {/* need to change the size of the  picture in the future with h and w */}
+        <img class="rounded-full " src={pic} alt="" />
         <div class="text-center mt-12	">
           <h1> <strong> <em> My name is Michael Pitopoulakis, nice to meet you!</em></strong></h1>
           <br />
@@ -28,7 +28,7 @@ function About() {
           <p><strong><em>My relevant links</em></strong></p>
         </div>
         <div class='flex gap-9 flex-wrap	text-[40px] basis-10 justify-center	text-white'>
-          <a class="hover:text-sky-400" href="https://www.docdroid.net/7oCkhJg/michael-pitopoulakis-cv-pdf">Download my CV</a>
+          <a class="hover:text-sky-400" href="https://docdro.id/keaDnlB">Download my CV</a>
           <a class="hover:text-sky-400" href="https://github.com/michaelpitop/">My GitHub page</a>
           <a class="hover:text-sky-400" href="https://www.linkedin.com/in/michaelpitop/">LinkedIn Profile</a>
         </div>
